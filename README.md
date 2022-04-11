@@ -13,7 +13,7 @@
 ## Table of Contents
 
 - [Direct Download](#direct-download)
-- [Build From Source 🔨](#build-from-source-🔨)
+- [Build From Source 🔨](#build-from-source-)
   - [Clone this Repository](#clone-this-repository)
   - [Run Cmake configuration](#run-cmake-configuration)
   - [Build from build directory](#build-from-build-directory)
