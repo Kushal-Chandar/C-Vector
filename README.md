@@ -10,7 +10,28 @@
 
 ### 🏠 [Homepage](https://github.com/Kushal-Chandar/C-Vector-Implementation-Library)
 
-## Usage
+## Table of Contents
+
+- [Direct Download](#direct-download)
+- [Build From Source 🔨](#build-from-source-🔨)
+  - [Clone this Repository](#clone-this-repository)
+  - [Run Cmake configuration](#run-cmake-configuration)
+  - [Build from build directory](#build-from-build-directory)
+  - [Setup](#setup)
+- [Usage](#usage)
+- [Author](#author)
+- [🤝 Contributing](#-contributing)
+- [📝 License](#-license)
+
+## Direct Download
+
+_build from source it is fun_
+
+### [Download](https://github.com/Kushal-Chandar/C-Vector-Implementation-Library/releases)
+
+### OR
+
+## Build From Source 🔨
 
 ### Clone this Repository
 
@@ -34,9 +55,9 @@ cmake -S .. -B .
 ninja
 ```
 
-### Install <br>
+### Setup
 
-1. **Run install.sh in the project root folder** <br>
+**Run install.sh in the project root folder** <br>
 
 > If you don't have git bash or have errors while running the install.sh. <br> Run the following commands in windows powershell.
 
@@ -47,29 +68,31 @@ cp build/libc_vector.a c_vector/lib/
 cp -r include c_vector
 ```
 
-2. Copy the contents in c_vector/include and c_vector/lib to a folder where your compiler searches for includes and directories. <br>
-   Example: <br>
+## Usage
 
-   - copy contents of **c_vector/include** to **path/to/mingw64/include**
+Copy the contents in c_vector/include and c_vector/lib to a folder where your compiler searches for includes and directories. <br>
+Example: <br>
 
-   - copy contents of **c_vector/lib** to **path/to/mingw64/lib**
-     <br>
+- copy contents of **c_vector/include** to **path/to/mingw64/include**
 
-   and Compile with
+- copy contents of **c_vector/lib** to **path/to/mingw64/lib**
+  <br>
 
-   ```sh
-   gcc file.c -lc_vector
-   ```
+and Compile with
 
-   OR
+```sh
+gcc file.c -lc_vector
+```
 
-   Compile with
+OR
 
-   ```sh
-   gcc file.c -I"path to c_vector/include/c_implementations without quotes" -L"path to c_vector/lib/libc_vector.a without quotes" -lc_vector
-   ```
+Compile with
 
-   lookup how to specify include directories for your compiler
+```sh
+gcc file.c -I"path to c_vector/include/c_implementations without quotes" -L"path to c_vector/lib/libc_vector.a without quotes" -lc_vector
+```
+
+lookup how to specify include directories for your compiler
 
 ### 📖 Check [examples](https://github.com/Kushal-Chandar/C-Vector-Implementation-Library/blob/main/examples/c_vector_int_example.c) and [Reference](https://kushal-chandar.github.io/C-Vector-Implementation-Library/html/c__vector__docs_8h.html)
 
