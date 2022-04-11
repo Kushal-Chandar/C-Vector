@@ -71,7 +71,7 @@ cp -r include c_vector
 
    lookup how to specify include directories for your compiler
 
-### 📖 Check [examples](#) and [Reference](#)
+### 📖 Check [examples](https://github.com/Kushal-Chandar/C-Vector-Implementation-Library/blob/main/examples/c_vector_int_example.c) and [Reference](#)
 
 ## Author
 
