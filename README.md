@@ -57,6 +57,8 @@ ninja
 
 ### Setup
 
+Requires Cmake and Ninja added to path
+
 **Run install.sh in the project root folder** <br>
 
 > If you don't have git bash or have errors while running the install.sh. <br> Run the following commands in windows powershell.
