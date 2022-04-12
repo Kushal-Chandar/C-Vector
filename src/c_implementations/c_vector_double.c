@@ -32,7 +32,12 @@ void DestroyVector_double(vector_double *vec) {
 
 void PushBack_double(vector_double *vec, DATA value) {
     if (IsFull_double(vec)) {
-        vec->capacity = (vec->size) * 2;
+        if (vec->size > 0)
+            vec->capacity = (vec->size) * 2;
+        else {
+            vec->capacity = 1;
+            vec->size = 0;
+        }
         vec->data = (DATA *)realloc((void *)vec->data, (vec->capacity) * SIZE);
     }
     (vec->size)++;

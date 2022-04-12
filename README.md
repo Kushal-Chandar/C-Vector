@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to C Vector Implementation Library 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.1.0.0-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.1.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/Kushal-Chandar/C-Vector-Implementation-Library/blob/main/LICENSE.txt" target="_blank">
     <img alt="License: GPLv3" src="https://img.shields.io/badge/License-GPLv3-yellow.svg" />
   </a>

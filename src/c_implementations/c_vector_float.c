@@ -32,7 +32,12 @@ void DestroyVector_float(vector_float *vec) {
 
 void PushBack_float(vector_float *vec, DATA value) {
     if (IsFull_float(vec)) {
-        vec->capacity = (vec->size) * 2;
+        if (vec->size > 0)
+            vec->capacity = (vec->size) * 2;
+        else {
+            vec->capacity = 1;
+            vec->size = 0;
+        }
         vec->data = (DATA *)realloc((void *)vec->data, (vec->capacity) * SIZE);
     }
     (vec->size)++;

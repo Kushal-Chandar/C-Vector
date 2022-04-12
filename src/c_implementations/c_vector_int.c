@@ -32,7 +32,12 @@ void DestroyVector_int(vector_int *vec) {
 
 void PushBack_int(vector_int *vec, DATA value) {
     if (IsFull_int(vec)) {
-        vec->capacity = (vec->size) * 2;
+        if (vec->size > 0)
+            vec->capacity = (vec->size) * 2;
+        else {
+            vec->capacity = 1;
+            vec->size = 0;
+        }
         vec->data = (DATA *)realloc((void *)vec->data, (vec->capacity) * SIZE);
     }
     (vec->size)++;
