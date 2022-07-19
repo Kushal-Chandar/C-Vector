@@ -20,27 +20,27 @@
 
 #include <stddef.h>
 typedef struct VECTOR_INT {
-    int *data;
-    size_t size;
-    size_t capacity;
+  int *data;
+  size_t size;
+  size_t capacity;
 } vector_int;
 
 typedef struct VECTOR_CHAR {
-    char *data;
-    size_t size;
-    size_t capacity;
+  char *data;
+  size_t size;
+  size_t capacity;
 } vector_char;
 
 typedef struct VECTOR_FLOAT {
-    float *data;
-    size_t size;
-    size_t capacity;
+  float *data;
+  size_t size;
+  size_t capacity;
 } vector_float;
 
 typedef struct VECTOR_DOUBLE {
-    double *data;
-    size_t size;
-    size_t capacity;
+  double *data;
+  size_t size;
+  size_t capacity;
 } vector_double;
 
 void CreateVector_int(vector_int *vector);

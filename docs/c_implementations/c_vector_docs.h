@@ -32,232 +32,276 @@
 /**
  * @brief Structure to encapsulate vector data.
  * @details Each object has a three variables data, size and capacity.
- * @warning No structure variable mentioned above must be directly initialised or have its value changed manually.
+ * @warning No structure variable mentioned above must be directly initialised
+ * or have its value changed manually.
  * @attention Create an object named 'a' with vector_int a;
  */
 typedef struct VECTOR_INT {
-    /**
-     * @brief Data is the internal dynamically allocated array
-     * @details Param data can be used to change values of vector at an index with object.data[index] where, index <= size - 1
-     */
-    int *data;
+  /**
+   * @brief Data is the internal dynamically allocated array
+   * @details Param data can be used to change values of vector at an index with
+   * object.data[index] where, index <= size - 1
+   */
+  int *data;
 
-    /**
-     * @brief Number of elements in the vector
-     * @details Object.size can be used to get the size of array for iterating through the vector
-     */
-    size_t size;
+  /**
+   * @brief Number of elements in the vector
+   * @details Object.size can be used to get the size of array for iterating
+   * through the vector
+   */
+  size_t size;
 
-    /**
-     * @brief The actual number of elements the vector can store currently
-     * @details This an internal variable used to perform checks
-     * @attention The capacity will be doubled if the vector is full
-     * @warning Don't change the value
-     */
-    size_t capacity;
+  /**
+   * @brief The actual number of elements the vector can store currently
+   * @details This an internal variable used to perform checks
+   * @attention The capacity will be doubled if the vector is full
+   * @warning Don't change the value
+   */
+  size_t capacity;
 } vector_int;
 
 /**
  * @brief Structure to encapsulate vector data.
  * @details Each object has a three variables data, size and capacity.
- * @warning No structure variable mentioned above must be directly initialised or have its value changed manually.
+ * @warning No structure variable mentioned above must be directly initialised
+ * or have its value changed manually.
  * @attention Create an object named 'a' with vector_char a;
  */
 typedef struct VECTOR_CHAR {
-    /**
-     * @brief Data is the internal dynamically allocated array
-     * @details Param data can be used to change values of vector at an index with object.data[index] where, index <= size - 1
-     */
-    char *data;
+  /**
+   * @brief Data is the internal dynamically allocated array
+   * @details Param data can be used to change values of vector at an index with
+   * object.data[index] where, index <= size - 1
+   */
+  char *data;
 
-    /**
-     * @brief Number of elements in the vector
-     * @details Object.size can be used to get the size of array for iterating through the vector
-     */
-    size_t size;
+  /**
+   * @brief Number of elements in the vector
+   * @details Object.size can be used to get the size of array for iterating
+   * through the vector
+   */
+  size_t size;
 
-    /**
-     * @brief The actual number of elements the vector can store currently
-     * @details This an internal variable used to perform checks
-     * @attention The capacity will be doubled if the vector is full
-     * @warning Don't change the value
-     */
-    size_t capacity;
+  /**
+   * @brief The actual number of elements the vector can store currently
+   * @details This an internal variable used to perform checks
+   * @attention The capacity will be doubled if the vector is full
+   * @warning Don't change the value
+   */
+  size_t capacity;
 } vector_char;
 
 /**
  * @brief Structure to encapsulate vector data.
  * @details Each object has a three variables data, size and capacity.
- * @warning No structure variable mentioned above must be directly initialised or have its value changed manually.
+ * @warning No structure variable mentioned above must be directly initialised
+ * or have its value changed manually.
  * @attention Create an object named 'a' with vector_float a;
  */
 typedef struct VECTOR_FLOAT {
-    /**
-     * @brief Data is the internal dynamically allocated array
-     * @details Param data can be used to change values of vector at an index with object.data[index] where, index <= size - 1
-     */
-    float *data;
+  /**
+   * @brief Data is the internal dynamically allocated array
+   * @details Param data can be used to change values of vector at an index with
+   * object.data[index] where, index <= size - 1
+   */
+  float *data;
 
-    /**
-     * @brief Number of elements in the vector
-     * @details Object.size can be used to get the size of array for iterating through the vector
-     */
-    size_t size;
+  /**
+   * @brief Number of elements in the vector
+   * @details Object.size can be used to get the size of array for iterating
+   * through the vector
+   */
+  size_t size;
 
-    /**
-     * @brief The actual number of elements the vector can store currently
-     * @details This an internal variable used to perform checks
-     * @attention The capacity will be doubled if the vector is full
-     * @warning Don't change the value
-     */
-    size_t capacity;
+  /**
+   * @brief The actual number of elements the vector can store currently
+   * @details This an internal variable used to perform checks
+   * @attention The capacity will be doubled if the vector is full
+   * @warning Don't change the value
+   */
+  size_t capacity;
 } vector_float;
 
 /**
  * @brief Structure to encapsulate vector data.
  * @details Each object has a three variables data, size and capacity.
- * @warning No structure variable mentioned above must be directly initialised or have its value changed manually.
+ * @warning No structure variable mentioned above must be directly initialised
+ * or have its value changed manually.
  * @attention Create an object named 'a' with vector_double a;
  */
 typedef struct VECTOR_DOUBLE {
-    /**
-     * @brief Data is the internal dynamically allocated array
-     * @details Param data can be used to change values of vector at an index with object.data[index] where, index <= size - 1
-     */
-    double *data;
+  /**
+   * @brief Data is the internal dynamically allocated array
+   * @details Param data can be used to change values of vector at an index with
+   * object.data[index] where, index <= size - 1
+   */
+  double *data;
 
-    /**
-     * @brief Number of elements in the vector
-     * @details Object.size can be used to get the size of array for iterating through the vector
-     */
-    size_t size;
+  /**
+   * @brief Number of elements in the vector
+   * @details Object.size can be used to get the size of array for iterating
+   * through the vector
+   */
+  size_t size;
 
-    /**
-     * @brief The actual number of elements the vector can store currently
-     * @details This an internal variable used to perform checks
-     * @attention The capacity will be doubled if the vector is full
-     * @warning Don't change the value
-     */
-    size_t capacity;
+  /**
+   * @brief The actual number of elements the vector can store currently
+   * @details This an internal variable used to perform checks
+   * @attention The capacity will be doubled if the vector is full
+   * @warning Don't change the value
+   */
+  size_t capacity;
 } vector_double;
 
 /**
  * @brief Create a vector
  * @param vector A pointer to an object of type vector_int.
- * @details Initialise data, size and capacity variables for the vector. Calloc is used to initialise data variable
+ * @details Initialise data, size and capacity variables for the vector. Calloc
+ * is used to initialise data variable
  */
 void CreateVector_int(vector_int *vector);
 
 /**
  * @brief Create a vector
  * @param vector A pointer to an object of type vector_char.
- * @details Initialise data, size and capacity variables for the vector. Calloc is used to initialise data variable
+ * @details Initialise data, size and capacity variables for the vector. Calloc
+ * is used to initialise data variable
  */
 void CreateVector_char(vector_char *vector);
 
 /**
  * @brief Create a vector
  * @param vector A pointer to an object of type vector_float.
- * @details Initialise data, size and capacity variables for the vector. Calloc is used to initialise data variable
+ * @details Initialise data, size and capacity variables for the vector. Calloc
+ * is used to initialise data variable
  */
 void CreateVector_float(vector_float *vector);
 
 /**
  * @brief Create a vector
  * @param vector A pointer to an object of type vector_double.
- * @details Initialise data, size and capacity variables for the vector. Calloc is used to initialise data variable
+ * @details Initialise data, size and capacity variables for the vector. Calloc
+ * is used to initialise data variable
  */
 void CreateVector_double(vector_double *vector);
 
 /**
  * @brief Create a vector with given size
  * @param vector A pointer to an object of type vector_int.
- * @param size The number of elements to initialise the vector, all values will be set to 0
- * @details Initialise data, size and capacity variables for the vector. Calloc is used to initialise data variable, and the size is set to the param size given be the user
+ * @param size The number of elements to initialise the vector, all values will
+ * be set to 0
+ * @details Initialise data, size and capacity variables for the vector. Calloc
+ * is used to initialise data variable, and the size is set to the param size
+ * given be the user
  */
 void CreateVectorSized_int(vector_int *vector, size_t size);
 
 /**
  * @brief Create a vector with given size
  * @param vector A pointer to an object of type vector_char.
- * @param size The number of elements to initialise the vector, all values will be set to 0
- * @details Initialise data, size and capacity variables for the vector. Calloc is used to initialise data variable, and the size is set to the param size given be the user
+ * @param size The number of elements to initialise the vector, all values will
+ * be set to 0
+ * @details Initialise data, size and capacity variables for the vector. Calloc
+ * is used to initialise data variable, and the size is set to the param size
+ * given be the user
  */
 void CreateVectorSized_char(vector_char *vector, size_t size);
 
 /**
  * @brief Create a vector with given size
  * @param vector A pointer to an object of type vector_float.
- * @param size The number of elements to initialise the vector, all values will be set to 0
- * @details Initialise data, size and capacity variables for the vector. Calloc is used to initialise data variable, and the size is set to the param size given be the user
+ * @param size The number of elements to initialise the vector, all values will
+ * be set to 0
+ * @details Initialise data, size and capacity variables for the vector. Calloc
+ * is used to initialise data variable, and the size is set to the param size
+ * given be the user
  */
 void CreateVectorSized_float(vector_float *vector, size_t size);
 
 /**
  * @brief Create a vector with given size
  * @param vector A pointer to an object of type vector_double.
- * @param size The number of elements to initialise the vector, all values will be set to 0
- * @details Initialise data, size and capacity variables for the vector. Calloc is used to initialise data variable, and the size is set to the param size given be the user
+ * @param size The number of elements to initialise the vector, all values will
+ * be set to 0
+ * @details Initialise data, size and capacity variables for the vector. Calloc
+ * is used to initialise data variable, and the size is set to the param size
+ * given be the user
  */
 void CreateVectorSized_double(vector_double *vector, size_t size);
 
 /**
  * @brief Reserve the size of a vector in memory
  * @param vector A pointer to an object of type vector_int.
- * @param size The vector will be reserved to number of elements passed into this param
- * @details The vector's capacity is shrunk or increased to match the number of elements provided by the user. At the end of this operation the size and capacity of vector are equal
+ * @param size The vector will be reserved to number of elements passed into
+ * this param
+ * @details The vector's capacity is shrunk or increased to match the number of
+ * elements provided by the user. At the end of this operation the size and
+ * capacity of vector are equal
  */
 void ReserveVectorSize_int(vector_int *vector, size_t size);
 
 /**
  * @brief Reserve the size of a vector in memory
  * @param vector A pointer to an object of type vector_char.
- * @param size The vector will be reserved to number of elements passed into this param
- * @details The vector's capacity is shrunk or increased to match the number of elements provided by the user. At the end of this operation the size and capacity of vector are equal
+ * @param size The vector will be reserved to number of elements passed into
+ * this param
+ * @details The vector's capacity is shrunk or increased to match the number of
+ * elements provided by the user. At the end of this operation the size and
+ * capacity of vector are equal
  */
 void ReserveVectorSize_char(vector_char *vector, size_t size);
 
 /**
  * @brief Reserve the size of a vector in memory
  * @param vector A pointer to an object of type vector_float.
- * @param size The vector will be reserved to number of elements passed into this param
- * @details The vector's capacity is shrunk or increased to match the number of elements provided by the user. At the end of this operation the size and capacity of vector are equal
+ * @param size The vector will be reserved to number of elements passed into
+ * this param
+ * @details The vector's capacity is shrunk or increased to match the number of
+ * elements provided by the user. At the end of this operation the size and
+ * capacity of vector are equal
  */
 void ReserveVectorSize_float(vector_float *vector, size_t size);
 
 /**
  * @brief Reserve the size of a vector in memory
  * @param vector A pointer to an object of type vector_double.
- * @param size The vector will be reserved to number of elements passed into this param
- * @details The vector's capacity is shrunk or increased to match the number of elements provided by the user. At the end of this operation the size and capacity of vector are equal
+ * @param size The vector will be reserved to number of elements passed into
+ * this param
+ * @details The vector's capacity is shrunk or increased to match the number of
+ * elements provided by the user. At the end of this operation the size and
+ * capacity of vector are equal
  */
 void ReserveVectorSize_double(vector_double *vector, size_t size);
 
 /**
  * @brief De-allocate the memory of the vector
  * @param vector A pointer to an object of type vector_int.
- * @details The vector's memory is de-allocated. size and capacity variables are set to 0
+ * @details The vector's memory is de-allocated. size and capacity variables are
+ * set to 0
  */
 void DestroyVector_int(vector_int *vector);
 
 /**
  * @brief De-allocate the memory of the vector
  * @param vector A pointer to an object of type vector_char.
- * @details The vector's memory is de-allocated. size and capacity variables are set to 0
+ * @details The vector's memory is de-allocated. size and capacity variables are
+ * set to 0
  */
 void DestroyVector_char(vector_char *vector);
 
 /**
  * @brief De-allocate the memory of the vector
  * @param vector A pointer to an object of type vector_float.
- * @details The vector's memory is de-allocated. size and capacity variables are set to 0
+ * @details The vector's memory is de-allocated. size and capacity variables are
+ * set to 0
  */
 void DestroyVector_float(vector_float *vector);
 
 /**
  * @brief De-allocate the memory of the vector
  * @param vector A pointer to an object of type vector_double.
- * @details The vector's memory is de-allocated. size and capacity variables are set to 0
+ * @details The vector's memory is de-allocated. size and capacity variables are
+ * set to 0
  */
 void DestroyVector_double(vector_double *vector);
 

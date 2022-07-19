@@ -12,13 +12,17 @@
 
 ## Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [Direct Download](#direct-download)
+  - [Download](#download)
+  - [OR](#or)
 - [Build From Source 🔨](#build-from-source-)
   - [Clone this Repository](#clone-this-repository)
   - [Run Cmake configuration](#run-cmake-configuration)
   - [Build from build directory](#build-from-build-directory)
   - [Setup](#setup)
 - [Usage](#usage)
+  - [📖 Check examples and [Reference](https://kushal-chandar.github.io/C-Vector-Implementation-Library/html/c__vector__docs_8h.html)](#-check-examples-and-reference)
 - [Author](#author)
 - [🤝 Contributing](#-contributing)
 - [📝 License](#-license)
