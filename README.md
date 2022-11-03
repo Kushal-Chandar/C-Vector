@@ -14,8 +14,6 @@
 
 - [Table of Contents](#table-of-contents)
 - [Direct Download](#direct-download)
-  - [Download](#download)
-  - [OR](#or)
 - [Build From Source 🔨](#build-from-source-)
   - [Clone this Repository](#clone-this-repository)
   - [Run Cmake configuration](#run-cmake-configuration)
@@ -31,9 +29,9 @@
 
 _build from source it is fun_
 
-### [Download](https://github.com/Kushal-Chandar/C-Vector-Implementation-Library/releases)
+[Download](https://github.com/Kushal-Chandar/C-Vector-Implementation-Library/releases)
 
-### OR
+**OR**
 
 ## Build From Source 🔨
 
