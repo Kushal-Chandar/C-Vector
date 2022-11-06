@@ -1,14 +1,14 @@
-<h1 align="center">Welcome to C Vector implementation library 👋</h1>
+<h1 align="center">C Vector👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.1.1.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/Kushal-Chandar/C-Vector-Implementation-Library/blob/main/LICENSE.txt" target="_blank">
+  <a href="https://github.com/Kushal-Chandar/C-Vector/blob/main/LICENSE.txt" target="_blank">
     <img alt="License: GPLv3" src="https://img.shields.io/badge/License-GPLv3-yellow.svg" />
   </a>
 </p>
 
 > This is a C implementation (a bit hacky) that provides an useful interface to create, delete and modify the internal dynamically allocated c array to use it like a C++ Vector
 
-### 🏠 [Homepage](https://github.com/Kushal-Chandar/C-Vector-Implementation-Library)
+### 🏠 [Homepage](https://github.com/Kushal-Chandar/C-Vector)
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@
   - [Build from build directory](#build-from-build-directory)
   - [Setup](#setup)
 - [Usage](#usage)
-  - [📖 Check examples and [Reference](https://kushal-chandar.github.io/C-Vector-Implementation-Library/html/c__vector__docs_8h.html)](#-check-examples-and-reference)
+  - [📖 Check examples and [Reference](https://kushal-chandar.github.io/C-Vector/html/c__vector__docs_8h.html)](#-check-examples-and-reference)
 - [Author](#author)
 - [🤝 Contributing](#-contributing)
 - [📝 License](#-license)
@@ -29,7 +29,7 @@
 
 _build from source it is fun_
 
-[Download](https://github.com/Kushal-Chandar/C-Vector-Implementation-Library/releases)
+[Download](https://github.com/Kushal-Chandar/C-Vector/releases)
 
 **OR**
 
@@ -38,7 +38,7 @@ _build from source it is fun_
 ### Clone this Repository
 
 ```sh
-git clone https://github.com/Kushal-Chandar/C-Vector-Implementation-Library.git
+git clone https://github.com/Kushal-Chandar/C-Vector.git
 ```
 
 ### Run Cmake configuration
@@ -98,7 +98,7 @@ gcc file.c -I"path to c_vector/include/c_implementations without quotes" -L"path
 
 lookup how to specify include directories for your compiler
 
-### 📖 Check [examples](https://github.com/Kushal-Chandar/C-Vector-Implementation-Library/blob/main/examples/c_vector_int_example.c) and [Reference](https://kushal-chandar.github.io/C-Vector-Implementation-Library/html/c__vector__docs_8h.html)
+### 📖 Check [examples](https://github.com/Kushal-Chandar/C-Vector/blob/main/examples/c_vector_int_example.c) and [Reference](https://kushal-chandar.github.io/C-Vector/html/c__vector__docs_8h.html)
 
 ## Author
 
@@ -111,9 +111,9 @@ lookup how to specify include directories for your compiler
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/Kushal-Chandar/C-Vector-Implementation-Library/issues).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/Kushal-Chandar/C-Vector/issues).
 
 ## 📝 License
 
 Copyright © 2022 [Kushal Chandar](https://github.com/Kushal-Chandar).<br />
-This project is [GPLv3](https://github.com/Kushal-Chandar/C-Vector-Implementation-Library/blob/main/LICENSE.txt) licensed.
+This project is [GPLv3](https://github.com/Kushal-Chandar/C-Vector/blob/main/LICENSE.txt) licensed.
