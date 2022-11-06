@@ -20,7 +20,6 @@
   - [Build from build directory](#build-from-build-directory)
   - [Setup](#setup)
 - [Usage](#usage)
-  - [📖 Check examples and [Reference](https://kushal-chandar.github.io/C-Vector/html/c__vector__docs_8h.html)](#-check-examples-and-reference)
 - [Author](#author)
 - [🤝 Contributing](#-contributing)
 - [📝 License](#-license)
@@ -98,7 +97,7 @@ gcc file.c -I"path to c_vector/include/c_implementations without quotes" -L"path
 
 lookup how to specify include directories for your compiler
 
-### 📖 Check [examples](https://github.com/Kushal-Chandar/C-Vector/blob/main/examples/c_vector_int_example.c) and [Reference](https://kushal-chandar.github.io/C-Vector/html/c__vector__docs_8h.html)
+📖 Check [examples](https://github.com/Kushal-Chandar/C-Vector/blob/main/examples/c_vector_int_example.c) and [Reference](https://kushal-chandar.github.io/C-Vector/html/c__vector__docs_8h.html)
 
 ## Author
 
