@@ -1,6 +1,7 @@
-#include <c_implementations/c_vector.h>
 #include <stdio.h>
 #include <stdlib.h>
+
+#include "c_vector.h"
 
 #define DATA char
 #define SIZE sizeof(DATA)
@@ -8,7 +9,7 @@
 void CreateVector_char(vector_char *vec) {
   vec->capacity = 0;
   vec->size = 0;
-  vec->data = (DATA *)calloc(0, SIZE);
+vec->data = NULL;
 }
 
 void CreateVectorSized_char(vector_char *vec, size_t size) {

@@ -4,7 +4,7 @@ tests/
 .vscode/
 c_vector/
 c_vector.zip
-examples/makefile
+
 
 # Prerequisites
 *.d

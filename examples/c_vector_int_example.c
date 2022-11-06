@@ -1,5 +1,6 @@
-#include <c_implementations/c_vector.h>
 #include <stdio.h>
+
+#include "c_vector.h"
 
 #define PRINT(X)                                                \
   for (size_t i = 0; i < X.size; i++) printf("%d ", X.data[i]); \
@@ -56,8 +57,8 @@ int main(int argc, char const *argv[]) {
   printf("\n\n");
 
   // Taking input
-  printf("Input vector: vec_int_b\n");
-  for (int i = 0; i < vec_int_b.size; i++) scanf("%d", &vec_int_b.data[i]);
+  printf("Input vector vec_int_b of size %zu\n", vec_int_b.size);
+  for (int i = 0; i < vec_int_b.size; i++) scanf_s("%d", &vec_int_b.data[i]);
   PRINT(vec_int_b)  // check the above macro for code
   printf("\n\n");
 

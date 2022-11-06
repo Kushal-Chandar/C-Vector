@@ -15,8 +15,8 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>
 */
-#if !defined(C_VECTOR)
-#define C_VECTOR
+#if !defined(C_VECTOR_INCLUDE_C_VECTOR_H_)
+#define C_VECTOR_INCLUDE_C_VECTOR_H_
 
 #include <stddef.h>
 typedef struct VECTOR_INT {
@@ -93,4 +93,4 @@ char Back_char(vector_char *vector);
 float Back_float(vector_float *vector);
 double Back_double(vector_double *vector);
 
-#endif  // C_VECTOR
+#endif  // C_VECTOR_INCLUDE_C_VECTOR_H_
