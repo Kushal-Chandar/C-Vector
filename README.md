@@ -107,7 +107,7 @@ lookup how to specify include directories for your compiler
 > I have implemented basic and most common data-types
 
 - Github: [@Kushal-Chandar](https://github.com/Kushal-Chandar)
-- LinkedIn: [@Kushal Chandar](https://linkedin.com/in/kushal-chandar-mylavarapu)
+- LinkedIn: [@Kushal Chandar](https://linkedin.com/in/kushal-chandar)
 
 ## 🤝 Contributing
 
