@@ -19,11 +19,6 @@
 #define C_VECTOR_INCLUDE_C_VECTOR_H_
 
 #include <stddef.h>
-typedef struct VECTOR_INT {
-  int *data;
-  size_t size;
-  size_t capacity;
-} vector_int;
 
 typedef struct VECTOR_CHAR {
   char *data;
@@ -43,52 +38,42 @@ typedef struct VECTOR_DOUBLE {
   size_t capacity;
 } vector_double;
 
-void CreateVector_int(vector_int *vector);
 void CreateVector_char(vector_char *vector);
 void CreateVector_float(vector_float *vector);
 void CreateVector_double(vector_double *vector);
 
-void CreateVectorSized_int(vector_int *vector, size_t size);
 void CreateVectorSized_char(vector_char *vector, size_t size);
 void CreateVectorSized_float(vector_float *vector, size_t size);
 void CreateVectorSized_double(vector_double *vector, size_t size);
 
-void ReserveVectorSize_int(vector_int *vector, size_t size);
 void ReserveVectorSize_char(vector_char *vector, size_t size);
 void ReserveVectorSize_float(vector_float *vector, size_t size);
 void ReserveVectorSize_double(vector_double *vector, size_t size);
 
-void DestroyVector_int(vector_int *vector);
 void DestroyVector_char(vector_char *vector);
 void DestroyVector_float(vector_float *vector);
 void DestroyVector_double(vector_double *vector);
 
-void PushBack_int(vector_int *vector, int value);
 void PushBack_char(vector_char *vector, char value);
 void PushBack_float(vector_float *vector, float value);
 void PushBack_double(vector_double *vector, double value);
 
-void Pop_int(vector_int *vector);
 void Pop_char(vector_char *vector);
 void Pop_float(vector_float *vector);
 void Pop_double(vector_double *vector);
 
-int IsFull_int(vector_int *vector);
 int IsFull_char(vector_char *vector);
 int IsFull_float(vector_float *vector);
 int IsFull_double(vector_double *vector);
 
-int IsEmpty_int(vector_int *vector);
 int IsEmpty_char(vector_char *vector);
 int IsEmpty_float(vector_float *vector);
 int IsEmpty_double(vector_double *vector);
 
-int Front_int(vector_int *vector);
 char Front_char(vector_char *vector);
 float Front_float(vector_float *vector);
 double Front_double(vector_double *vector);
 
-int Back_int(vector_int *vector);
 char Back_char(vector_char *vector);
 float Back_float(vector_float *vector);
 double Back_double(vector_double *vector);
