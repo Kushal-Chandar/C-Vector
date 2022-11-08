@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> This is a C implementation (a bit hacky) that provides an useful interface to create, delete and modify the internal dynamically allocated c array to use it like a C++ Vector
+> This is a C implementation that provides an useful interface to create, delete and modify the internal dynamically allocated c array to use it like a C++ Vector
 
 ### 🏠 [Homepage](https://github.com/Kushal-Chandar/C-Vector)
 
@@ -29,8 +29,6 @@
 _build from source it is fun_
 
 [Download](https://github.com/Kushal-Chandar/C-Vector/releases)
-
-**OR**
 
 ## Build From Source 🔨
 
@@ -60,9 +58,11 @@ ninja
 
 Requires Cmake and Ninja added to path
 
-**Run install.sh in the project root folder** <br>
+**Run install.sh in the project root folder**
 
-> If you don't have git bash or have errors while running the install.sh. <br> Run the following commands in windows powershell.
+> If you don't have git bash or have errors while running the install.sh.
+
+> Run the following commands in windows powershell.
 
 ```ps
 mkdir c_vector
@@ -74,12 +74,11 @@ cp -r include c_vector
 ## Usage
 
 Copy the contents in c_vector/include and c_vector/lib to a folder where your compiler searches for includes and directories. <br>
-Example: <br>
+Example:
 
 - copy contents of **c_vector/include** to **path/to/mingw64/include**
 
 - copy contents of **c_vector/lib** to **path/to/mingw64/lib**
-  <br>
 
 and Compile with
 
@@ -97,7 +96,7 @@ gcc file.c -I"path to c_vector/include/c_implementations without quotes" -L"path
 
 lookup how to specify include directories for your compiler
 
-📖 Check [examples](https://github.com/Kushal-Chandar/C-Vector/blob/main/examples/c_vector_int_example.c) and [Reference](https://kushal-chandar.github.io/C-Vector/html/c__vector__docs_8h.html)
+<!-- 📖 Check [examples](https://github.com/Kushal-Chandar/C-Vector/blob/main/examples/c_vector_int_example.c) and [Reference](https://kushal-chandar.github.io/C-Vector/html/c__vector__docs_8h.html) -->
 
 ## Author
 
@@ -110,9 +109,12 @@ lookup how to specify include directories for your compiler
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/Kushal-Chandar/C-Vector/issues).
+Contributions, issues and feature requests are welcome!
+
+Feel free to check [issues page](https://github.com/Kushal-Chandar/C-Vector/issues).
 
 ## 📝 License
 
-Copyright © 2022 [Kushal Chandar](https://github.com/Kushal-Chandar).<br />
+Copyright © 2022 [Kushal Chandar](https://github.com/Kushal-Chandar).
+
 This project is [GPLv3](https://github.com/Kushal-Chandar/C-Vector/blob/main/LICENSE.txt) licensed.

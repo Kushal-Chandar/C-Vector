@@ -1,12 +1,6 @@
 cmake_minimum_required(VERSION 3.23)
 
-project(
-  c_vector
-  VERSION "1.1.1.0" # major.minior.patch.tweak
-  HOMEPAGE_URL "https://github.com/Kushal-Chandar/C-Vector"
-  DESCRIPTION
-    "This is a C implementation (a bit hacky) that provides an useful interface to create, delete and modify the internal dynamically allocated c array to use it like a C++ Vector."
-  LANGUAGES C)
+project(c_vector LANGUAGES C)
 
 set(C_STANDARD 11)
 set(C_STANDARD_REQUIRED TRUE)
